@@ -1,42 +1,25 @@
-# Projects
-Project Overview
+   Kaspi.kz Smartphone Price and Feature Analysis
+This project is dedicated to scraping and analyzing smartphone data from Kaspi.kz, and comparing it with a dataset from Kaggle. The analysis includes comparing prices, features, and other aspects of smartphones to identify trends and differences between the platforms.
 
-This repository contains multiple data analysis projects, including crime data analysis, a movie recommendation system, and web scraping for smartphone price comparison.
+The project is divided into four main parts:
 
-Projects
-
-1. Crime Data Analysis
-
-Analyzed crime data from London, identifying patterns and trends across different neighborhoods.
-
-Applied statistical models to detect correlations between crime rates and socioeconomic factors.
-
-Used Power BI for data visualization and presenting insights.
-
-2. Movie Recommendation System
-
-Implemented a content-based filtering method to suggest movies based on user preferences.
-
-Integrated a T5 model to automatically correct misspelled movie titles.
-
-Developed a search function that allows users to find movies even with incorrect spellings.
-
-3. Web Scraping & Price Comparison
-
-Scraped smartphone prices from Kaspi.kz and Amazon for comparative analysis.
-
-Used Python libraries such as BeautifulSoup and Pandas for data extraction and processing.
-
-Conducted statistical analysis to compare pricing trends across platforms.
-
-Technologies Used
-
-Python (Pandas, NumPy, BeautifulSoup, Scikit-learn)
-
-Power BI for visualization
-
-Machine Learning (T5 Model for text correction)
-
-Web Scraping (BeautifulSoup)
-
-Data Analysis & Statistical Modeling
+1. Web Scraping (web_scrap/)
+Goal: Collect smartphone data from Kaspi.kz.
+Used BeautifulSoup and Selenium to extract smartphone details (name, price, features, etc.) from product pages.
+Saved the scraped data in structured CSV files for further analysis.
+The scraping script is adaptable for other e-commerce websites by modifying the URL and scraping logic.
+2. Data Cleaning (data_cleaning/)
+Goal: Clean and preprocess the scraped data.
+Handled missing or inconsistent values.
+Replaced missing values with the mean or mode where appropriate.
+Dropped irrelevant columns and rows.
+Ensured the dataset was in the right format for analysis and modeling.
+3. Data Visualization (data_visualization/)
+Goal: Visualize key insights from the dataset.
+Used Matplotlib to create graphs and charts that compare prices, features, and trends of smartphones on Kaspi.kz and the Kaggle dataset.
+Analyzed price distributions, feature correlations, and visualized key patterns in the data.
+4. Machine Learning and Prediction (ml_predict/)
+Goal: Build machine learning models to predict smartphone prices and analyze features.
+Preprocessed the data by converting categorical variables into numerical ones.
+Created new features to improve model performance and understanding.
+Built and evaluated various machine learning models, such as regression models, to predict smartphone prices based on their features.
