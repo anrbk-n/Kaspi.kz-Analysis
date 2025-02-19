@@ -1,4 +1,4 @@
-   Kaspi.kz Smartphone Price and Feature Analysis
+      Kaspi.kz Smartphone Price and Feature Analysis
 This project is dedicated to scraping and analyzing smartphone data from Kaspi.kz, and comparing it with a dataset from Kaggle. The analysis includes comparing prices, features, and other aspects of smartphones to identify trends and differences between the platforms.
 
 The project is divided into four main parts:
