@@ -1,4 +1,3 @@
-#**Transfermarkt**
 The Transfermarkt Data Analysis project aims to analyze football player transfer data from Transfermarkt. The goal is to build a comprehensive system that can evaluate the value of players, identify trends in transfer fees, and offer insights into factors that influence player valuations. This project uses various data analysis techniques and visualizations to understand the dynamics of player transfers in professional football.
 
 The dataset includes player information such as their transfer fee, market value, age, nationality, position, and historical performance. By analyzing these attributes, we aim to uncover patterns and provide actionable insights that can help in understanding the factors behind player market values.
