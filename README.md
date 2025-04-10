@@ -16,7 +16,7 @@ Goal: Clean and preprocess the scraped data.
 ### 2.2 Replaced missing values with the mean or mode where appropriate.
 ### 2.3 Dropped irrelevant columns and rows.
 ### 2.4 Ensured the dataset was in the right format for analysis and modeling.
-## 3. Data Visualization `Data visualization/ipynb`
+## 3. Data Visualization `Data visualization.ipynb`
 Goal: Visualize key insights from the dataset.
 ### 3.1 Used Matplotlib to create graphs and charts that compare prices, features, and trends of smartphones on Kaspi.kz and the Kaggle dataset.
 ### 3.2 Analyzed price distributions, feature correlations, and visualized key patterns in the data.
